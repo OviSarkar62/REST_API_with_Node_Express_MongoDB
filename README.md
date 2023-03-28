@@ -20,3 +20,13 @@ DELETE: router.delete("/:id",deleteUser)
         res.status(500).send(error.message);
     }
     };
+
+### getOneUser
+    const getOneUser = async (req, res)=>{
+    try{
+        const user = await User.findOne({id: req.params.id});
+        res.status(200).json(user);
+    } catch(error) {
+        res.status(500).send(error.message);
+    }
+    };
