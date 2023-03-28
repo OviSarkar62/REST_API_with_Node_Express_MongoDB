@@ -11,8 +11,8 @@ PATCH: router.patch("/:id",updateUser)
 
 DELETE: router.delete("/:id",deleteUser)
 
-## getAllUsers
-     const getAllUsers = async (req, res)=>{
+### getAllUsers
+    const getAllUsers = async (req, res)=>{
     try{
         const users = await User.find();
         res.status(200).json(users);
