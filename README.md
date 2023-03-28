@@ -2,6 +2,11 @@
 
 REST API with database using Node Express and MongoDB using MVC architecture. Create, find, read, update and delete operations are performed in this project connecting database with the help of MongoDB Atlas and MongoDBCompass.
 
+## Important Command Lines
+`npm i express mongoose dotenv nodemon cors body-parser uuid`
+
+`npm start`
+
 ## API Routes
 GET: router.get("/", getAllUsers)
 
