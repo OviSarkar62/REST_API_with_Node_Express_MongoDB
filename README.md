@@ -10,7 +10,7 @@ REST API with database using Node Express and MongoDB using MVC architecture. Cr
 ## Database Connection
 In the server side folder create .env file and put this code inside it.
 
-`DB = mongodb+srv://<user>:<pass>@cluster0.l17quyr.mongodb.net/database`
+`DB_URL = mongodb+srv://<user>:<pass>@cluster0.l17quyr.mongodb.net/database`
 
 ## API Routes
 GET: router.get("/", getAllUsers)
