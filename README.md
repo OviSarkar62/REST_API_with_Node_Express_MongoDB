@@ -1,5 +1,7 @@
 # REST API with Node Express MongoDB
 
+REST API with database using Node Express and MongoDB using MVC architecture. Create, find, read, update and delete operations are performed in this project connecting database with the help of MongoDB Atlas and MongoDBCompass.
+
 ## API Routes
 GET: router.get("/", getAllUsers)
 
